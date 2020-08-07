@@ -7,6 +7,7 @@
        <div class="onions"></div>
        <div class="lemon"></div>
        <div class="pear"></div>
+       <div class="nuts"></div>
     </div>
      <div class="carton"></div>
      <div class="home-view3"></div>
@@ -17,7 +18,7 @@
                 <div class="left-side5">
                      <div class="bar"></div>
                  <div class="view5-text">
-                     People are digging our meals! Hear what they are saying about plant-based living.
+                     People are digging our <br>  meals! Hear what they <br> are saying about plant- <br> based living.
                  </div>
                 </div>
                 
@@ -96,6 +97,15 @@
     z-index: 5;
  
 }
+.nuts{
+  position: absolute;
+     margin-top: 33vh;
+    height: 50vh;
+    width: 90vw;
+     left:3vw;
+    background: url(../assets/images/nuts.png);
+    background-size: 100% 100%;
+  }
 
 .carton{
   position: relative;
@@ -133,8 +143,9 @@
 }
 .view5-container{
     height: 100%;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+    color: #444;
 }
 .fivea{
     width: 100%;
@@ -152,22 +163,57 @@
     height: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(28, 37, 160);
+    /* background-color: rgb(28, 37, 160); */
  
 }
 .logo-div{
-    height: 20%;
-    width: 100%;
+    height: 15%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
 }
 .bar{
     position: relative;
-    border:1.5px solid rgb(74, 3, 88);
+    border:1px solid rgb(74, 3, 88);
     width: 50%;
     margin-top: 0;
 }
 .view5-text{
-    font-size: 30px;
+    font-size: 25px;
     text-align: left;
-    font-weight: bold;
+    font-weight: 600;
 }
+.logo1{
+    position: relative;
+    width: 15%;
+    height: 100%;
+    background: url(../assets/images/eater.svg);
+    background-size: 100% 100%;
+}
+.logo2{
+    position: absolute;
+    width: 5%;
+    margin-left: 9%;
+    height: 15%;
+    background: url(../assets/images/today.svg);
+    background-size: 100% 100%;
+}
+.logo3{
+    position: absolute;
+    width: 10%;
+    margin-left:15%;
+    height: 15%;
+    background: url(../assets/images/shape.svg);
+    background-size: 100% 100%;
+ }
+.logo4{
+    position: absolute;
+    width: 15%;
+    margin-left:26%;
+    height: 15%;
+    background: url(../assets/images/fast-company.svg);
+    background-size: 100% 100%;
+ }
 </style>
